@@ -45,7 +45,8 @@ function preencheListaDeElementosCards() {
 
 function alinhaElementoNoCentro() {
   listaDeTodosCards[indexCardAtual].scrollIntoView({
-    inline: "center"
+    inline: "center",
+    behavior: "smooth"
   })
 }
 
